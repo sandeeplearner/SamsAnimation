@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2CD1FADA1F62A9F100B5679A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD1FAD91F62A9F100B5679A /* AppDelegate.swift */; };
+		2CD1FADC1F62A9F100B5679A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD1FADB1F62A9F100B5679A /* ViewController.swift */; };
+		2CD1FADF1F62A9F100B5679A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CD1FADD1F62A9F100B5679A /* Main.storyboard */; };
+		2CD1FAE11F62A9F100B5679A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CD1FAE01F62A9F100B5679A /* Assets.xcassets */; };
+		2CD1FAE41F62A9F100B5679A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CD1FAE21F62A9F100B5679A /* LaunchScreen.storyboard */; };
+		2CD1FAEF1F62A9F100B5679A /* SamsAnimationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD1FAEE1F62A9F100B5679A /* SamsAnimationTests.swift */; };
+		2CD1FAFA1F62A9F100B5679A /* SamsAnimationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD1FAF91F62A9F100B5679A /* SamsAnimationUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2CD1FAEB1F62A9F100B5679A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2CD1FACE1F62A9F100B5679A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2CD1FAD51F62A9F100B5679A;
+			remoteInfo = SamsAnimation;
+		};
+		2CD1FAF61F62A9F100B5679A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2CD1FACE1F62A9F100B5679A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2CD1FAD51F62A9F100B5679A;
+			remoteInfo = SamsAnimation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2CD1FAD61F62A9F100B5679A /* SamsAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SamsAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CD1FAD91F62A9F100B5679A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2CD1FADB1F62A9F100B5679A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2CD1FADE1F62A9F100B5679A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2CD1FAE01F62A9F100B5679A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2CD1FAE31F62A9F100B5679A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2CD1FAE51F62A9F100B5679A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CD1FAEA1F62A9F100B5679A /* SamsAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SamsAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CD1FAEE1F62A9F100B5679A /* SamsAnimationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SamsAnimationTests.swift; sourceTree = "<group>"; };
+		2CD1FAF01F62A9F100B5679A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CD1FAF51F62A9F100B5679A /* SamsAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SamsAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CD1FAF91F62A9F100B5679A /* SamsAnimationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SamsAnimationUITests.swift; sourceTree = "<group>"; };
+		2CD1FAFB1F62A9F100B5679A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2CD1FAD31F62A9F100B5679A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CD1FAE71F62A9F100B5679A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CD1FAF21F62A9F100B5679A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2CD1FACD1F62A9F100B5679A = {
+			isa = PBXGroup;
+			children = (
+				2CD1FAD81F62A9F100B5679A /* SamsAnimation */,
+				2CD1FAED1F62A9F100B5679A /* SamsAnimationTests */,
+				2CD1FAF81F62A9F100B5679A /* SamsAnimationUITests */,
+				2CD1FAD71F62A9F100B5679A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2CD1FAD71F62A9F100B5679A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2CD1FAD61F62A9F100B5679A /* SamsAnimation.app */,
+				2CD1FAEA1F62A9F100B5679A /* SamsAnimationTests.xctest */,
+				2CD1FAF51F62A9F100B5679A /* SamsAnimationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2CD1FAD81F62A9F100B5679A /* SamsAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				2CD1FAD91F62A9F100B5679A /* AppDelegate.swift */,
+				2CD1FADB1F62A9F100B5679A /* ViewController.swift */,
+				2CD1FADD1F62A9F100B5679A /* Main.storyboard */,
+				2CD1FAE01F62A9F100B5679A /* Assets.xcassets */,
+				2CD1FAE21F62A9F100B5679A /* LaunchScreen.storyboard */,
+				2CD1FAE51F62A9F100B5679A /* Info.plist */,
+			);
+			path = SamsAnimation;
+			sourceTree = "<group>";
+		};
+		2CD1FAED1F62A9F100B5679A /* SamsAnimationTests */ = {
+			isa = PBXGroup;
+			children = (
+				2CD1FAEE1F62A9F100B5679A /* SamsAnimationTests.swift */,
+				2CD1FAF01F62A9F100B5679A /* Info.plist */,
+			);
+			path = SamsAnimationTests;
+			sourceTree = "<group>";
+		};
+		2CD1FAF81F62A9F100B5679A /* SamsAnimationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2CD1FAF91F62A9F100B5679A /* SamsAnimationUITests.swift */,
+				2CD1FAFB1F62A9F100B5679A /* Info.plist */,
+			);
+			path = SamsAnimationUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2CD1FAD51F62A9F100B5679A /* SamsAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CD1FAFE1F62A9F100B5679A /* Build configuration list for PBXNativeTarget "SamsAnimation" */;
+			buildPhases = (
+				2CD1FAD21F62A9F100B5679A /* Sources */,
+				2CD1FAD31F62A9F100B5679A /* Frameworks */,
+				2CD1FAD41F62A9F100B5679A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SamsAnimation;
+			productName = SamsAnimation;
+			productReference = 2CD1FAD61F62A9F100B5679A /* SamsAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2CD1FAE91F62A9F100B5679A /* SamsAnimationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CD1FB011F62A9F100B5679A /* Build configuration list for PBXNativeTarget "SamsAnimationTests" */;
+			buildPhases = (
+				2CD1FAE61F62A9F100B5679A /* Sources */,
+				2CD1FAE71F62A9F100B5679A /* Frameworks */,
+				2CD1FAE81F62A9F100B5679A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2CD1FAEC1F62A9F100B5679A /* PBXTargetDependency */,
+			);
+			name = SamsAnimationTests;
+			productName = SamsAnimationTests;
+			productReference = 2CD1FAEA1F62A9F100B5679A /* SamsAnimationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2CD1FAF41F62A9F100B5679A /* SamsAnimationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CD1FB041F62A9F100B5679A /* Build configuration list for PBXNativeTarget "SamsAnimationUITests" */;
+			buildPhases = (
+				2CD1FAF11F62A9F100B5679A /* Sources */,
+				2CD1FAF21F62A9F100B5679A /* Frameworks */,
+				2CD1FAF31F62A9F100B5679A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2CD1FAF71F62A9F100B5679A /* PBXTargetDependency */,
+			);
+			name = SamsAnimationUITests;
+			productName = SamsAnimationUITests;
+			productReference = 2CD1FAF51F62A9F100B5679A /* SamsAnimationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2CD1FACE1F62A9F100B5679A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Jiyo;
+				TargetAttributes = {
+					2CD1FAD51F62A9F100B5679A = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 8KM97Q6J88;
+						ProvisioningStyle = Automatic;
+					};
+					2CD1FAE91F62A9F100B5679A = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 8KM97Q6J88;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2CD1FAD51F62A9F100B5679A;
+					};
+					2CD1FAF41F62A9F100B5679A = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 8KM97Q6J88;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2CD1FAD51F62A9F100B5679A;
+					};
+				};
+			};
+			buildConfigurationList = 2CD1FAD11F62A9F100B5679A /* Build configuration list for PBXProject "SamsAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2CD1FACD1F62A9F100B5679A;
+			productRefGroup = 2CD1FAD71F62A9F100B5679A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2CD1FAD51F62A9F100B5679A /* SamsAnimation */,
+				2CD1FAE91F62A9F100B5679A /* SamsAnimationTests */,
+				2CD1FAF41F62A9F100B5679A /* SamsAnimationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2CD1FAD41F62A9F100B5679A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CD1FAE41F62A9F100B5679A /* LaunchScreen.storyboard in Resources */,
+				2CD1FAE11F62A9F100B5679A /* Assets.xcassets in Resources */,
+				2CD1FADF1F62A9F100B5679A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CD1FAE81F62A9F100B5679A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CD1FAF31F62A9F100B5679A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2CD1FAD21F62A9F100B5679A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CD1FADC1F62A9F100B5679A /* ViewController.swift in Sources */,
+				2CD1FADA1F62A9F100B5679A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CD1FAE61F62A9F100B5679A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CD1FAEF1F62A9F100B5679A /* SamsAnimationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CD1FAF11F62A9F100B5679A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CD1FAFA1F62A9F100B5679A /* SamsAnimationUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2CD1FAEC1F62A9F100B5679A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2CD1FAD51F62A9F100B5679A /* SamsAnimation */;
+			targetProxy = 2CD1FAEB1F62A9F100B5679A /* PBXContainerItemProxy */;
+		};
+		2CD1FAF71F62A9F100B5679A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2CD1FAD51F62A9F100B5679A /* SamsAnimation */;
+			targetProxy = 2CD1FAF61F62A9F100B5679A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2CD1FADD1F62A9F100B5679A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2CD1FADE1F62A9F100B5679A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2CD1FAE21F62A9F100B5679A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2CD1FAE31F62A9F100B5679A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2CD1FAFC1F62A9F100B5679A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2CD1FAFD1F62A9F100B5679A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2CD1FAFF1F62A9F100B5679A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8KM97Q6J88;
+				INFOPLIST_FILE = SamsAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiyo.SamsAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		2CD1FB001F62A9F100B5679A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8KM97Q6J88;
+				INFOPLIST_FILE = SamsAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiyo.SamsAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		2CD1FB021F62A9F100B5679A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 8KM97Q6J88;
+				INFOPLIST_FILE = SamsAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiyo.SamsAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SamsAnimation.app/SamsAnimation";
+			};
+			name = Debug;
+		};
+		2CD1FB031F62A9F100B5679A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 8KM97Q6J88;
+				INFOPLIST_FILE = SamsAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiyo.SamsAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SamsAnimation.app/SamsAnimation";
+			};
+			name = Release;
+		};
+		2CD1FB051F62A9F100B5679A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 8KM97Q6J88;
+				INFOPLIST_FILE = SamsAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiyo.SamsAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SamsAnimation;
+			};
+			name = Debug;
+		};
+		2CD1FB061F62A9F100B5679A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 8KM97Q6J88;
+				INFOPLIST_FILE = SamsAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiyo.SamsAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SamsAnimation;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2CD1FAD11F62A9F100B5679A /* Build configuration list for PBXProject "SamsAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CD1FAFC1F62A9F100B5679A /* Debug */,
+				2CD1FAFD1F62A9F100B5679A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CD1FAFE1F62A9F100B5679A /* Build configuration list for PBXNativeTarget "SamsAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CD1FAFF1F62A9F100B5679A /* Debug */,
+				2CD1FB001F62A9F100B5679A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2CD1FB011F62A9F100B5679A /* Build configuration list for PBXNativeTarget "SamsAnimationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CD1FB021F62A9F100B5679A /* Debug */,
+				2CD1FB031F62A9F100B5679A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2CD1FB041F62A9F100B5679A /* Build configuration list for PBXNativeTarget "SamsAnimationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CD1FB051F62A9F100B5679A /* Debug */,
+				2CD1FB061F62A9F100B5679A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2CD1FACE1F62A9F100B5679A /* Project object */;
+}
