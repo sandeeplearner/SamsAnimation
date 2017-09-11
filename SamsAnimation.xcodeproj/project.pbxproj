@@ -14,6 +14,7 @@
 		2CD1FAE41F62A9F100B5679A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CD1FAE21F62A9F100B5679A /* LaunchScreen.storyboard */; };
 		2CD1FAEF1F62A9F100B5679A /* SamsAnimationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD1FAEE1F62A9F100B5679A /* SamsAnimationTests.swift */; };
 		2CD1FAFA1F62A9F100B5679A /* SamsAnimationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD1FAF91F62A9F100B5679A /* SamsAnimationUITests.swift */; };
+		2CD1FB081F63046300B5679A /* JYActivitiIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD1FB071F63046300B5679A /* JYActivitiIndicator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		2CD1FAF51F62A9F100B5679A /* SamsAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SamsAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CD1FAF91F62A9F100B5679A /* SamsAnimationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SamsAnimationUITests.swift; sourceTree = "<group>"; };
 		2CD1FAFB1F62A9F100B5679A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CD1FB071F63046300B5679A /* JYActivitiIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JYActivitiIndicator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				2CD1FAE01F62A9F100B5679A /* Assets.xcassets */,
 				2CD1FAE21F62A9F100B5679A /* LaunchScreen.storyboard */,
 				2CD1FAE51F62A9F100B5679A /* Info.plist */,
+				2CD1FB071F63046300B5679A /* JYActivitiIndicator.swift */,
 			);
 			path = SamsAnimation;
 			sourceTree = "<group>";
@@ -263,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2CD1FADC1F62A9F100B5679A /* ViewController.swift in Sources */,
+				2CD1FB081F63046300B5679A /* JYActivitiIndicator.swift in Sources */,
 				2CD1FADA1F62A9F100B5679A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
